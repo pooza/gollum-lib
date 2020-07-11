@@ -10,7 +10,7 @@ def specification(version, default_adapter, platform = nil)
     s.platform          = platform if platform
     s.date              = '2020-04-29'
     s.date              = '2017-04-13'
-    s.rubyforge_project = 'gollum-lib'
+    #s.rubyforge_project = 'gollum-lib'
     s.license           = 'MIT'
 
     s.summary     = 'A simple, Git-powered wiki.'
