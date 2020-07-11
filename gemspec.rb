@@ -25,7 +25,7 @@ def specification(version, default_adapter, platform = nil)
     s.rdoc_options = ['--charset=UTF-8']
     s.extra_rdoc_files = %w(README.md LICENSE)
 
-    s.add_dependency *default_adapter
+    #s.add_dependency *default_adapter
     s.add_dependency 'rouge', '~> 3.1'
     s.add_dependency 'nokogiri', '~> 1.8'
     s.add_dependency 'loofah', '~> 2.3'
